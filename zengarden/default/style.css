@@ -1,0 +1,75 @@
+body,
+input,
+textarea {
+  color: #333; /*-webkit-font-smoothing:antialiased;*/
+  font-size: 17px;
+  line-height: 1.75;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  margin: 2em;
+  background-color: rgb(233, 252, 255);
+}
+
+/* Families */
+body {
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif; /* Weights from Typekit: 300, 400 */
+  line-height: 1.75;
+}
+h2,
+h3 {
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif; /* Weights from Typekit: 200, 900 */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+h1 {
+  background: #b97fca;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+}
+h2 {
+  color: black;
+  font-weight: 250; /* Heavy */
+  font-size: 4em;
+  letter-spacing: 1px;
+  line-height: 1em;
+}
+h3 {
+  font-size: 2.25em;
+  font-weight: 200; /* Thin */
+  letter-spacing: 1px;
+  line-height: 1em;
+  padding: 0.5em 0 0.25em 0;
+  text-decoration: underline;
+}
+p,
+li {
+  font-size: 1em;
+  font-weight: 350; /* Regular */
+  line-height: 2em;
+  padding: 0.5em 0;
+}
+
+a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #333;
+  text-decoration: none;
+  font-weight: 225;
+  -moz-transition: border-color 0.2s ease-in-out;
+  -ms-transition: border-color 0.2s ease-in-out;
+  -o-transition: border-color 0.2s ease-in-out;
+  -webkit-transition: border-color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out;
+}
+a:hover {
+  border-color: #ea2e49;
+}
