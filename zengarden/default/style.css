@@ -55,7 +55,7 @@ p,
 li {
   font-size: 1em;
   font-weight: 350; /* Regular */
-  line-height: 2em;
+  line-height: 3em;
   padding: 0.5em 0;
 }
 
@@ -69,7 +69,13 @@ a {
   -o-transition: border-color 0.2s ease-in-out;
   -webkit-transition: border-color 0.2s ease-in-out;
   transition: border-color 0.2s ease-in-out;
+  width: 15px;
+  height: 15px;
+  border: 1px solid;
+  margin: 5px;
+  padding: 10px;
 }
 a:hover {
   border-color: #ea2e49;
+  background-color: rgb(228, 228, 228);
 }
