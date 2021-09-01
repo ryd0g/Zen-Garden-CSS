@@ -14,7 +14,7 @@ textarea {
 body {
   font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif; /* Weights from Typekit: 300, 400 */
-  line-height: 1.75;
+  line-height: 1.5;
 }
 h2,
 h3 {
@@ -55,7 +55,7 @@ p,
 li {
   font-size: 1em;
   font-weight: 350; /* Regular */
-  line-height: 3em;
+  line-height: 2em;
   padding: 0.5em 0;
 }
 
@@ -69,13 +69,62 @@ a {
   -o-transition: border-color 0.2s ease-in-out;
   -webkit-transition: border-color 0.2s ease-in-out;
   transition: border-color 0.2s ease-in-out;
+}
+a:hover {
+  border-color: #ea2e49;
+  background-color: rgb(228, 228, 228);
+}
+footer > a {
   width: 15px;
   height: 15px;
   border: 1px solid;
   margin: 5px;
   padding: 10px;
 }
-a:hover {
-  border-color: #ea2e49;
-  background-color: rgb(228, 228, 228);
+
+.zen-resources,
+.design-archives,
+.design-selection {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  width: 300px;
+  margin: 25px;
+}
+.zen-resources h3,
+.design-archives h3,
+.design-selection h3 {
+  margin: 0;
+  text-align: center;
+  padding: 1em;
+  background-color: #000;
+  color: #fff;
+}
+.zen-resources ul,
+.design-archives ul,
+.design-selection ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.zen-resources a,
+.design-archives a,
+.design-selection nav > ul > li {
+  text-decoration: none;
+  padding: 0.65em;
+  display: block;
+}
+.zen-resources > ul > li,
+.design-archives nav > ul > li,
+.design-selection nav > ul > li {
+  padding: 0;
+}
+.design-selection nav > ul > li {
+  margin: 10px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 25px;
 }
